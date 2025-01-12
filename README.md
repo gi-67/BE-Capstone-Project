@@ -18,6 +18,15 @@ Payment Integration: Integrated with Razorpay for secure online payments.
 Order Management: View order history and status updates.
 Responsive Design: Mobile-friendly UI ensuring a consistent experience across devices.
 Admin Panel: Manage products, orders, and users efficiently through Django's admin interface.
+Features
+A few of the things you can do with this app:
+
+Admin can create/update/delete Product Category
+Admin can create/update/delete Product Detail
+Authenticated Users can make POST requests to Product Category & Product Detail
+Unauthenticated Users can only make GET requests to Product Category & Product Detail
+Users can SignUp to be authorized
+Authorized Users can make Payment & Order Products
 Screenshots
 Home Page
 Homepage Screenshot
@@ -71,7 +80,7 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/atulguptag/Django-eCommerce-Website.git
+git clone git
 cd Django-eCommerce-Website
 Create a virtual environment:
 
@@ -96,10 +105,4 @@ Start the development server:
 python manage.py runserver
 Open your web browser and navigate to:
 
-http://127.0.0.1:8000/
-Usage
-Admin Panel: Access the admin panel at http://127.0.0.1:8000/admin/ to manage products, orders, and users.
-Shopping: Browse products, add items to the cart, proceed to checkout, and make payments using Razorpay.
-Profile: Users can register, login, reset their password, view their order history, and update their profiles.
-Contributing
-Contributions are welcome! Please fork this repository and create a pull request with your proposed features, enhancements, or bug fixes.
+
